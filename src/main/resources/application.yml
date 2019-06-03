@@ -1,0 +1,7 @@
+micronaut:
+  application:
+    name: micronaut-server
+  http:
+    client:
+      # Prevent http client read timeout tests with Mono
+      read-timeout: 30s
