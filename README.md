@@ -9,13 +9,16 @@ $ ./gradlew clean test
 > Task :test
 
 sk.test.server.HelloControllerSpec STANDARD_OUT
+
     09:37:32.473 [Test worker] INFO  i.m.context.env.DefaultEnvironment - Established active environments: [test]
 
 sk.test.server.HelloControllerSpec > using Mono STANDARD_OUT
+
     09:37:34.262 [Test worker] INFO  sk.test.server.HelloControllerSpec - Tests using mono
     09:41:46.972 [Test worker] INFO  sk.test.server.HelloControllerSpec - Done tests using mono
 
 sk.test.server.HelloControllerSpec > without Mono STANDARD_OUT
+
     09:41:46.975 [Test worker] INFO  sk.test.server.HelloControllerSpec - Tests without mono
     09:42:27.216 [Test worker] INFO  sk.test.server.HelloControllerSpec - Done tests without mono
 
