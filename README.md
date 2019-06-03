@@ -24,7 +24,7 @@ sk.test.server.HelloControllerSpec > without Mono STANDARD_OUT
     09:41:46.975 [Test worker] INFO  sk.test.server.HelloControllerSpec - Tests without mono
     09:42:27.216 [Test worker] INFO  sk.test.server.HelloControllerSpec - Done tests without mono
 
-# Same test in 45 seconds.
+# Same tests in 45 seconds.
 
 # I want to use non-blocking IO, how do I fix this issue?
 
